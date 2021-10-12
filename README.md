@@ -139,7 +139,143 @@ The HTML unordered list has various list item markers:
 		<li>Technical</li>
 		<li>Behavioural</li>
 	</ul>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		li {
+			padding-left: 23px;
+		}
+	</style>
+</head>
+
+<body>
+	<h3 style="color:green;
+		text-align:center">
+		unordered list - space
+	</h3>
+
+	<h2 style="text-align:center">
+		How to create space between
+		list bullets and text in HTML?
+	</h2>
+
+	<!-- padding-left property used here -->
+	<p><b>list of fruits</b></p>
+
+	<ul>
+		<li>Java</li>
+		<li>C++</li>
+		<li>Golang</li>
+		<li>Python</li>
+		<li>C#</li>
+	</ul>
 </body>
 
-
 </html>
+
+## How to create a ordered list in HTML
+	
+	<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		h2 {
+			color: green;
+		}
+	</style>
+</head>
+
+<body>
+	<h2>Ordered List with Roman Numbers</h2>
+	<ol type="I">
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JAVA</li>
+		<li>SASS</li>
+	</ol>
+
+	<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		h2 {
+			color: green;
+		}
+	</style>
+</head>
+
+<body>
+	<h2>
+		Ordered List with LowerCase
+		Roman Numbers
+	</h2>
+	
+	<ol type="i">
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JAVA</li>
+		<li>SASS</li>
+	</ol>
+
+<!DOCTYPE html>
+<html>
+	
+<body>
+<h2>Rank in Descending order</h2>
+<ol reversed>
+	<li>Coding</li>
+	<li>DevOps</li>
+	<li>Database</li>
+	<li>Data Science</li>
+	<li>front End</li>
+	<li>Back End</li>
+	<li>Mobile</li>
+	<li>Testing</li>
+	<li>FullTStack</li>
+	<li>Code Review</li>
+</ol>
+
+
+<html>
+	
+<body>
+<h2>Rank in Descending order</h2>
+<ol reversed start = 23>
+	<li>Sourcer</li>
+	<li>Recruiter</li>
+	<li>Advisor</li>
+	<li>Talent Analyst</li>
+	<li>Talent Partner</li>
+	<li>Generalist</li>
+	<li>FullStack</li>
+	<li>Backend HR</li>
+	<li>Diversity</li>
+	<li>Leadership</li>
+</ol>
+</body>
+
+<body>
+<h2>Rank in Ascending order</h2>
+<ol reversed start = 23>
+	<li>Sourcer</li>
+	<li>Recruiter</li>
+	<li>Advisor</li>
+	<li>Talent Analyst</li>
+	<li>Talent Partner</li>
+	<li>Generalist</li>
+	<li>FullStack</li>
+	<li>Backend HR</li>
+	<li>Diversity</li>
+	<li>Leadership</li>
+</ol>
+</body>
+</html>
+
+
+	
+	
+
