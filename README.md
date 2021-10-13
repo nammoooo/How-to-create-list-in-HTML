@@ -223,6 +223,112 @@ The HTML unordered list has various list item markers:
 
 <!DOCTYPE html>
 <html>
+
+<body>
+	<h2>Ordered List with Numbers</h2>
+	<ol type="1">
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>Java</li>
+		<li>SASS</li>
+	</ol>
+</body>
+
+</html>
+	
+	<!DOCTYPE html>
+<html>
+
+<body>
+	<h2>Ordered List with Letters</h2>
+	<ol type="A">
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>Java</li>
+		<li>SASS</li>
+	</ol>
+</body>
+
+</html>
+
+	<!DOCTYPE html>
+<html>
+
+<body>
+	<h2>Ordered List with Lowercase Letters</h2>
+	<ol type="a">
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>Java</li>
+		<li>SASS</li>
+	</ol>
+</body>
+
+</html>
+
+<html>
+
+<body>
+	<h2>Ordered List with Roman Numbers</h2>
+	<ol type="I">
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>Java</li>
+		<li>SASS</li>
+	</ol>
+</body>
+
+</html>
+
+<html>
+
+<body>
+	<h2>Ordered List with Lowercase Roman Numbers</h2>
+	<ol type="i">
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>Java</li>
+		<li>SASS</li>
+	</ol>
+</body>
+
+</html>
+
+	
+<html>
+
+<body>
+	<h2>Nested Ordered List</h2>
+	<ol>
+		<li>HTML</li>
+		<li>CSS
+			<ol>
+				<li>CSS3</li>
+				<li>CSS4</li>
+			</ol>
+		</li>
+		<li>JavaScript</li>
+	</ol>
+</body>
+
+</html>
+
+
+<html>
+
+<body>
+	<h2>A Description List</h2>
+	<dl>
+		<dt>CSS</dt>
+		<dd>- Inline CSS</dd>
+		<dt>HTML</dt>
+		<dd>- XHTML</dd>
+	</dl>
+</body>
+
+</html>
+
+<html>
 	
 <body>
 <h2>Rank in Descending order</h2>
