@@ -177,7 +177,7 @@ The HTML unordered list has various list item markers:
 
 ## How to create a ordered list in HTML
 	
-	<!DOCTYPE html>
+	
 <html>
 
 <head>
@@ -197,7 +197,6 @@ The HTML unordered list has various list item markers:
 		<li>SASS</li>
 	</ol>
 
-	<!DOCTYPE html>
 <html>
 
 <head>
@@ -221,7 +220,7 @@ The HTML unordered list has various list item markers:
 		<li>SASS</li>
 	</ol>
 
-<!DOCTYPE html>
+
 <html>
 
 <body>
@@ -236,7 +235,7 @@ The HTML unordered list has various list item markers:
 
 </html>
 	
-	<!DOCTYPE html>
+	
 <html>
 
 <body>
@@ -251,7 +250,7 @@ The HTML unordered list has various list item markers:
 
 </html>
 
-	<!DOCTYPE html>
+
 <html>
 
 <body>
@@ -269,7 +268,7 @@ The HTML unordered list has various list item markers:
 <html>
 
 <body>
-	<h2>Ordered List with Roman Numbers</h2>
+	<h2>Ordered List with Uppercase Roman Numbers</h2>
 	<ol type="I">
 		<li>HTML</li>
 		<li>CSS</li>
@@ -328,6 +327,64 @@ The HTML unordered list has various list item markers:
 
 </html>
 
+
+<html>
+
+<head>
+	<title>
+	HTML Input list Attribute
+</title>
+</head>
+
+<body>
+	
+	<h1 style="color:green">
+	HTML Input list Attribute
+</h1>
+
+	<form action="">
+		<label>Your Cars Name: </label>
+		<input list="cars">
+		<datalist id="cars">
+			<option value="Java" />
+			<option value="C++" />
+			<option value="Golang" />
+			<option value="Android" />
+			<option value="iOS" />
+		</datalist>
+	</form>
+</body>
+
+</html>
+
+<html>
+	<head>
+		<title>reversed attribute</title>
+		<style>
+			h1, h2 {
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body>
+		<h2 style ="color:green;font-style:italic;">
+			HTML List
+		</h2>
+		<h2 style="color:green;font-style:italic;">
+			HTML reversed attribute
+		</h2>
+
+		<ol reversed>
+			<li>Data Structures</li>
+			<li>Operating System</li>
+			<li>python programming</li>
+			<li>DBMS</LI>
+			<li>Computer Network</li>
+		</ol>
+	</body>
+</html>							
+
+	
 <html>
 	
 <body>
@@ -364,21 +421,6 @@ The HTML unordered list has various list item markers:
 </ol>
 </body>
 
-<body>
-<h2>Rank in Ascending order</h2>
-<ol reversed start = 23>
-	<li>Sourcer</li>
-	<li>Recruiter</li>
-	<li>Advisor</li>
-	<li>Talent Analyst</li>
-	<li>Talent Partner</li>
-	<li>Generalist</li>
-	<li>FullStack</li>
-	<li>Backend HR</li>
-	<li>Diversity</li>
-	<li>Leadership</li>
-</ol>
-</body>
 </html>
 
 
